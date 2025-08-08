@@ -1,95 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
-    <title>Protfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tekalign Tekola</title>
+  <link rel="shortcut icon" type="image/ico" href="favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="desktop-nav">
-        <div class="logo">Tekalign T. </div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+  <header>    
+    <nav>
+      <ul>
+        <li><a class="logo" href="index.html">Tekalign Tekola</a></li>
+        <li><a href="index.html">Instagram</a></li>
+        <li><a href="index.html">Linked In</a></li>
+        <li><a href="#my-work">My Work</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
     </nav>
 
-    <!--Building The mobile menu-->
+    <div class="flex-container">
+      <img height="400px" width="300px" src="Teka.jpg" alt="John Smith Portrait">
+      <div class="text-container">
+        <h1>Hi, I'm Tekalign Tekola</h1>
+        <p>A <strong>Frontend Developer</strong> & <strong>UI Engineer,</strong>I build responsive, accessible, and dynamic web applications with a focus on user experience.</p>
+        <a href="https://github.com/Tekalign-T7" class="cta-button">Github</a>
+        <a href="#my-work" class="cta-button secondary">See my Work</a>
+      </div>
+    </div>
+  </header>
 
-    <nav id="hamburger-nav">
-        <div class="logo">Tekalign T.</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
-            </div>
-        </div>
-    </nav>
+  <section>
+    <div class="flex-container">
+      <div class="text-container">
+        <h2>How I can help you</h2>
+        <p>Your work is <strong>visual poetry</strong> but if it’s buried in folders or lost on social media, who sees it? I give you gallery worthy websites that make colors pop, layouts breathe, and clients stop scrolling. Showcase your Work. Let your art speak louder than algorithms.</p>
+      </div>
+      <img class="Photographers" width="350px" src="Photographers (2025).jpg" alt="">
+    </div>
+  </section>
+  
+  <section id="my-work">
+    <h2>Some of my best pictures</h2>
+    <div class="grid-container">
+      <img style="grid-area: img-1" src="images/pexels-alef-morais-336305364-30684729.jpg" alt="">
+      <img style="grid-area: img-2" src="images/pexels-aleksey-kuprikov-1883853-3493777.jpg" alt="">
+      <img style="grid-area: img-3" src="images/pexels-chris-janda-12879-62600.jpg" alt="">
+      <img style="grid-area: img-4" src="images/pexels-frankdhill-1599899.jpg" alt="">
+      <img style="grid-area: img-5" src="images/pexels-tomas-anunziata-129267-3876394.jpg" alt="">
+    </div>
+    <a href="" class="cta-button">More on my Insta</a>
+  </section>
+  <section>
+    <div>Why Choose My Service?</div>
+    <div class="grid-container2">
+      <div>Your Struggle</div>
+      <div>My Solution</div>
+      <div>Your Win</div>
+      <div>Generic template fatigue</div>
+      <div>100% custom design</div>
+      <div>A portfolio that is your brand</div>
+      <div>Wasting hours on CMS bugs</div>
+      <div>Zero-maintenance static site</div>
+      <div>Launch in one week,not 3 months</div>
+      <div>Getting lost in algorithms</div>
+      <div>SEO-optimized architecture</div>
+      <div>Rank higher, get found faster</div>
+      <div>Mobile-unfriendly layouts</div>
+      <div>lawless on all devices</div>
+      <div>Never lose a client to bad UX</div>
+    </div>
+  </section>
+  <section>
+    <h2>Common Questions</h2>
+    <details>
+      <summary>How much does it cost?</summary>
+      <p>Almost the <strong>cost </strong> of a <strong>weekend coffee  run</strong> in return A Website that lands premium gigs. A brand that makes clients say “shut up and take my money.”</p>
+    </details>
+    <details>
+      <summary>Key Benefits</summary>
+      <ul>
+        <li>Pixel-Perfect Control</li>
+        <li>Speed That Converts</li>
+        <li>Zero Tech Headaches</li>
+        <li>Built for Results</li>
+      </ul>
+      <p></p>
+    </details>
+  </section>
 
+  <footer class="footer">
+    <a href="">Linked In</a>
+    <a href="">My Work</a>
+    <a href="mailto:johnsmith@gmail.com">Contact</a>
+  </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--<div class="image_holder"><img src="Image.jpg" alt="Tekalign Tekola's image"></div>
-    <h1>Hey🙋🏻I'm Dev Tekalign.</h1>
-    <h3>Projects</h3>
-   <div id="project-container">
-    <div class="projects">◭</div>
-    <div class="projects">◭</div>
-    <div class="projects">◮</div>
-    <div class="projects">◮</div>
-   </div>
-   <div id="about-me">
-    <p>About me</p>
-   </div>
-   <ul>
-        <li>Cool</li>
-        <li>Amazing</li>
-        <li>Handsome</li>
-        <li>Talented</li>
-    </ul>
--->
-<script src="script.js"></script>
 </body>
 </html>
